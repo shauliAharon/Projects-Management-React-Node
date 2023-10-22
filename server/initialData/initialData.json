@@ -1,0 +1,108 @@
+{
+  "projects": [
+    {
+      "title": "first project",
+      "subtitle": "first project subtitle",
+      "description": "A project description outlines the details of one project, including all its phases and processes involved, in a single document. It addresses the problem that initiated the project and the desired goals and objectives. But it doesn't have to stop there. The project description can also go into planning, including the activities that the team will execute, the timeline and even the location of the project. The benefits of the project are also outlined in the project description. This is done at the initiation phase of the project and will be referred to throughout the project as a refresher. The project manager is responsible for writing the project description and helps guide the project manager and their team throughout the life cycle of the project. In a sense, the project description is the setup and the project execution is the delivery. But a project description, as helpful as it is, will not manage and track your project to help it stay on schedule. ",
+      "phone": "050-0000000",
+      "email": "first@gmail.com",
+      "webUrl": "",
+      "imageUrl": "",
+      "imageAlt": "",
+      "missionMode": "in development",
+      "dueDate": "02-02-2024"
+    },
+    {
+      "title": "two project",
+      "subtitle": "two project subtitle",
+      "description": " A project description outlines the details of one project, including all its phases and processes involved, in a single document. It addresses the problem that initiated the project and the desired goals and objectives. But it doesn't have to stop there. The project description can also go into planning, including the activities that the team will execute, the timeline and even the location of the project. The benefits of the project are also outlined in the project description. This is done at the initiation phase of the project and will be referred to throughout the project as a refresher. The project manager is responsible for writing the project description and helps guide the project manager and their team throughout the life cycle of the project. In a sense, the project description is the setup and the project execution is the delivery. But a project description, as helpful as it is, will not manage and track your project to help it stay on schedule. ",
+      "phone": "050-0000000",
+      "email": "two@gmail.com",
+      "webUrl": "",
+      "imageUrl": "",
+      "imageAlt": "",
+      "missionMode": "in development",
+      "dueDate": "02-02-2024"
+    },
+    {
+      "title": "three project",
+      "subtitle": " A project description outlines the details of one project, including all its phases and processes involved, in a single document. It addresses the problem that initiated the project and the desired goals and objectives. But it doesn't have to stop there. The project description can also go into planning, including the activities that the team will execute, the timeline and even the location of the project. The benefits of the project are also outlined in the project description. This is done at the initiation phase of the project and will be referred to throughout the project as a refresher. The project manager is responsible for writing the project description and helps guide the project manager and their team throughout the life cycle of the project. In a sense, the project description is the setup and the project execution is the delivery. But a project description, as helpful as it is, will not manage and track your project to help it stay on schedule. ",
+      "description": "three project description",
+      "phone": "050-0000000",
+      "email": "three@gmail.com",
+      "webUrl": "",
+      "imageUrl": "",
+      "imageAlt": "",
+      "missionMode": "in development",
+      "dueDate": "02-02-2024"
+    }
+  ],
+  "users": [
+    {
+      "name": {
+        "first": "regular",
+        "last": "user"
+      },
+      "phone": "050-0000000",
+      "email": "regular@gmail.com",
+      "password": "Aa1234!",
+      "image": {
+        "url": "",
+        "alt": ""
+      },
+      "address": {
+        "state": "",
+        "country": "il",
+        "city": "tl",
+        "street": "bl",
+        "houseNumber": 5,
+        "zip": 0
+      }
+    },
+    {
+      "name": {
+        "first": "business",
+        "last": "user"
+      },
+      "phone": "050-0000000",
+      "email": "business@gmail.com",
+      "password": "Aa1234!",
+      "image": {
+        "url": "",
+        "alt": ""
+      },
+      "address": {
+        "state": "",
+        "country": "il",
+        "city": "tl",
+        "street": "bl",
+        "houseNumber": 5,
+        "zip": 0
+      },
+      "isBusiness": true
+    },
+    {
+      "name": {
+        "first": "admin",
+        "last": "user"
+      },
+      "phone": "050-0000000",
+      "email": "admin@gmail.com",
+      "password": "Aa1234!",
+      "image": {
+        "url": "",
+        "alt": ""
+      },
+      "address": {
+        "state": "",
+        "country": "il",
+        "city": "tl",
+        "street": "bl",
+        "houseNumber": 5,
+        "zip": 0
+      },
+      "isBusiness": true,
+      "isAdmin": true
+    }
+  ]
+}
