@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import ROUTES from "../../routes/routesModel";
 import { useUser } from "../../users/providers/UserProvider";
 import EmailIcon from "@mui/icons-material/Email";
+import { Typography } from "@mui/material";
 const Footer = () => {
   const navigate = useNavigate();
   const { user } = useUser();
@@ -20,9 +21,8 @@ const Footer = () => {
     >
       <BottomNavigation showLabels>
         <BottomNavigationAction
-         
           label="About"
-          icon={<InfoIcon color="primary"/>}
+          icon={<InfoIcon color="primary" />}
           onClick={() => navigate(ROUTES.ABOUT)}
         />
 
@@ -41,14 +41,23 @@ const Footer = () => {
             onClick={() => navigate(ROUTES.MY_PROJECTS)}
           />
         )}
-            <BottomNavigationAction
+        <BottomNavigationAction
           label="Contact Us"
           icon={<EmailIcon color="primary" />}
           onClick={() => navigate(ROUTES.CONTACTUS)}
         />
-     
       </BottomNavigation>
-      
+      <Typography
+        textAlign="center"
+        color="inherit"
+        sx={{
+          fontFamily: "-moz-initial",
+          fontSize: "0.8rem",
+          textDecoration: "underline",
+        }}
+      >
+        Created by Shauli Aharon &copy; 2023
+      </Typography>
     </Paper>
   );
 };
