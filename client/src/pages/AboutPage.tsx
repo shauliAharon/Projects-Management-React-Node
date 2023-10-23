@@ -76,10 +76,25 @@ const AboutPage = () => {
                 style={{ borderRadius: "8px" }}
               />
             </Grid>
-            <Typography sx={{ textAlign: "center", fontFamily: "inherit" }}>
+            <Typography sx={{ textAlign: "left", fontFamily: "inherit", pt:3 }}>
               Inside the project you can see the description of the project, the
               time you have left, a phone number and email for inquiries and a
-              project number.
+              project number. A project description describes the details of one
+              project, including all its stages and processes involved, in one
+              document. It provides an answer to the problem that initiated the
+              project and the desired goals and objectives. But it doesn't have
+              to stop there. The project description can also go into planning,
+              including the activities the team will perform, the timeline and
+              even the location of the project. The benefits of the project are
+              also detailed in the project description. This was done during the
+              initiation phase of the project and will be treated throughout the
+              project as a refresher. The project manager is responsible for
+              writing the project description and helps guide the project
+              manager and their team throughout the project life cycle. In a
+              sense, the project description is the definition and project
+              execution is the delivery. But a project description, as helpful
+              as it is, won't manage and track your project to help it stay on
+              schedule. 
             </Typography>
             <Grid item xs={12} md={12}>
               <img
